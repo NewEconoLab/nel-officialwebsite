@@ -314,7 +314,7 @@
             }
         }
         .right{
-            display: none;
+            overflow: hidden;
             font-size: 14px;
             color: #FFFFFF;
             background: #333;
@@ -325,6 +325,15 @@
             top: 0;
             left: 0;
             z-index: 2;
+            height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            -webkit-transition: height 0.5s,padding 0.5s;
+            transition: height 0.5s,padding 0.5s;
+            &.active{
+                height: 319px;
+                padding: 50px 50px 40px 50px;
+            }
             .close-icon{
                 display: block;
                 width: 18px;

@@ -11,15 +11,18 @@ var app = {
         this.onLanguageClick();
         //
         this.onScrollNav();
+        //
+        this.onToggleMenu();
     },
     onNavClick: function ()
     {
         $("#nav").on("click", "li", function ()
         {
+            $("#right").removeClass("active");
             //获取元素id
             var elementId = $(this).data("boxid");
             //获取元素高度
-            var elementTop = $('#' + elementId).offset().top - 150;
+            var elementTop = $('#' + elementId).offset().top - 100;
 
             //清楚所有的active
             $("#nav").find('li').removeClass('active');
@@ -72,6 +75,14 @@ var app = {
                 $("ul li[data-boxid=welcome]").addClass('active');
             }
 
+        })
+    },
+    onToggleMenu(){
+        $("#menu").on('click',function(){
+            $("#right").addClass("active");
+        })
+        $("#closeBtn").on('click',function(){
+            $("#right").removeClass("active");
         })
     }
 }
