@@ -397,7 +397,6 @@ header .right .language-toggle .select-country ul li a {
 }
 .content-other .content-three .project-wrap {
   margin-top: 50px;
-  padding: 0 .4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
