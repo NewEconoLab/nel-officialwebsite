@@ -1,0 +1,804 @@
+header {
+  width: 100%;
+  height: 58px;
+  background: #fff;
+  color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  border-bottom: 1px solid #eee;
+}
+header .left {
+  height: 30px;
+  width: 120px;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 14px;
+}
+header .left span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/logo.png") no-repeat;
+  background-size: cover;
+}
+header .mobile-language {
+  display: none;
+}
+header .right {
+  float: right;
+  font-size: 15px;
+  margin-right: 0.5rem;
+}
+header .right .nav {
+  display: inline-block;
+}
+header .right .nav li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top: 32px;
+  position: relative;
+}
+header .right .nav li.active {
+  color: #5E9AFF;
+}
+header .right .nav li.active:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #5E9AFF;
+  border-radius: 20px;
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+}
+header .right .language-toggle {
+  display: inline-block;
+  border: 1px solid #333333;
+  border-radius: 100px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  position: relative;
+  top: -7px;
+}
+header .right .language-toggle .language-left {
+  display: inline-block;
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+  padding-right: 10px;
+  border-right: 1px solid #333;
+}
+header .right .language-toggle .language-left img {
+  width: 14px;
+  height: 14px;
+  margin-top: 5px;
+}
+header .right .language-toggle .triangle-wrap {
+  display: inline-block;
+}
+header .right .language-toggle .triangle-wrap .triangle {
+  width: 0;
+  height: 0;
+  margin-top: 2px;
+  border: 4px solid transparent;
+  border-top: 4px solid #333;
+}
+header .right .language-toggle .select-country {
+  display: none;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 73px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #333333;
+}
+header .right .language-toggle .select-country ul li {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  border-bottom: 1px solid #333;
+}
+header .right .language-toggle .select-country ul li:last-child {
+  border-bottom: none;
+}
+header .right .language-toggle .select-country ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content-one {
+  box-sizing: border-box;
+  height: 8rem;
+  max-height: 800px;
+  background: url("../img/banner.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap {
+  width: 10.88rem;
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 176px;
+}
+.content-one .contentone-wrap .des-wrap {
+  padding-top: 2.7rem;
+}
+.content-one .contentone-wrap .des-wrap .des-en {
+  display: none;
+}
+.content-one .contentone-wrap .des-wrap strong {
+  font-size: 20px;
+  color: #333333;
+}
+.content-one .contentone-wrap .des-wrap h1 {
+  font-size: 36px;
+  color: #333333;
+}
+.content-one .contentone-wrap .des-wrap span {
+  display: inline-block;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 1.2px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+}
+.content-one .contentone-wrap .relation-wrap {
+  font-size: 16px;
+  color: #AFAFAF;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul {
+  margin-top: .3rem;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon {
+  display: inline-block;
+  position: relative;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: .3rem;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -ms-transition: -ms-transform 0.5s;
+  transition: transform 0.5s;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-twitter {
+  background: url("../img/twitter-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Reddit {
+  background: url("../img/Reddit-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Telegram {
+  background: url("../img/Telegram-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Discord {
+  background: url("../img/Discord-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-qq {
+  background: url("../img/qq-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-wechat {
+  background: url("../img/wechat-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-neo {
+  background: url("../img/NEOstar-unselected.png") no-repeat;
+  background-size: cover;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-git {
+  background: url("../img/github-unselected.png") no-repeat;
+  background-size: cover;
+  margin-right: 0;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover {
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-twitter {
+  background: url("../img/twitter-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #C4E8FF;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Reddit {
+  background: url("../img/Reddit-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #FFD7C8;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Telegram {
+  background: url("../img/Telegram-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #A5DDF6;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Discord {
+  background: url("../img/Discord-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #CCD4FF;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq {
+  background: url("../img/qq-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #BFE7FF;
+  position: relative;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 40px;
+  left: -24px;
+  background: url('../img/qqcode.png') no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #d2d2d2;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat {
+  background: url("../img/wechat-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #B6D5B4;
+  position: relative;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 40px;
+  left: -24px;
+  background: url('../img/qrcode.png') no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #d2d2d2;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-neo {
+  background: url("../img/NEOstar-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #CDEEB0;
+}
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-git {
+  background: url("../img/github-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #CECECE;
+}
+.content-other {
+  background: #F6F9FF;
+  padding-bottom: 110px;
+  position: relative;
+  z-index: 2;
+}
+.content-other .bg2 {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 1300px;
+  z-index: 1;
+  background: url("../img/bg2.png") no-repeat;
+  background-size: cover;
+  width: 298px;
+  height: 311px;
+}
+.content-other .bg3 {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 2456px;
+  z-index: 1;
+  background: url("../img/lcircle.png") no-repeat;
+  background-size: cover;
+  width: 501px;
+  height: 1002px;
+}
+.content-other .bg4 {
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 2756px;
+  z-index: 1;
+  background: url("../img/rcircle.png") no-repeat;
+  background-size: cover;
+  width: 501px;
+  height: 1002px;
+}
+.content-other .content {
+  width: 10.88rem;
+  max-width: 1090px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  margin-top: 120px;
+}
+.content-other .content .title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.content-other .content:nth-of-type(odd) {
+  color: #fff;
+}
+.content-other .content:nth-of-type(odd) .title::after {
+  content: '';
+  width: 35px;
+  height: 5px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -18px;
+}
+.content-other .content:nth-of-type(even) {
+  color: #333333;
+}
+.content-other .content:nth-of-type(even) .title::after {
+  content: '';
+  width: 35px;
+  height: 5px;
+  background: #5E9AFF;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -18px;
+}
+.content-other .content-two {
+  margin-top: 0;
+  padding: 80px 20px;
+  background: #5E9AFF;
+  box-shadow: 0 2px 10px 0 rgba(155, 182, 237, 0.5);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -60px;
+}
+.content-other .content-two .about-wrap {
+  margin-top: .6rem;
+}
+.content-other .content-two .about-wrap .about-list {
+  display: inline-block;
+  width: 2.8rem;
+  max-width: 280px;
+  margin-right: .74rem;
+  vertical-align: top;
+}
+.content-other .content-two .about-wrap .about-list .about-img img {
+  width: 60px;
+}
+.content-other .content-two .about-wrap .about-list .about-name {
+  font-size: 16px;
+  margin-top: .4rem;
+  margin-bottom: .3rem;
+}
+.content-other .content-two .about-wrap .about-list .about-des {
+  font-size: 14px;
+  text-align: left;
+  line-height: 22px;
+}
+.content-other .content-two .about-wrap .about-list .about-des-en {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: justify;
+}
+.content-other .content-two .about-wrap .about-list:last-child {
+  margin-right: 0;
+}
+.content-other .content-three .project-wrap {
+  margin-top: 50px;
+  padding: 0 .4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-other .content-three .project-wrap .project-list {
+  margin-bottom: .7rem;
+  background: #fff;
+  box-shadow: 0 2px 10px 0 #ECF2FF;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px;
+  -webkit-transition: -webkit-transform 0.5s, background 0.8s;
+  -moz-transition: -moz-transform 0.5s, background 0.8s;
+  -ms-transition: -ms-transform 0.5s, background 0.8s;
+  transition: transform 0.5s,background 0.8s;
+}
+.content-other .content-three .project-wrap .project-list .project-title {
+  font-size: 16px;
+  color: #333;
+}
+.content-other .content-three .project-wrap .project-list .project-des {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #AFAFAF;
+  line-height: 22px;
+  text-align: justify;
+}
+.content-other .content-three .project-wrap .project-list .project-link {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-size: 14px;
+  color: #333333;
+  text-align: justify;
+  line-height: 14px;
+}
+.content-other .content-three .project-wrap .project-list .project-link a {
+  display: block;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.content-other .content-three .project-wrap .project-list .project-link a img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.content-other .content-three .project-wrap .project-list .project-link a img.display-no {
+  display: inline-block;
+}
+.content-other .content-three .project-wrap .project-list .project-link a img.display-yes {
+  display: none;
+}
+.content-other .content-three .project-wrap .project-list .project-waiting {
+  margin-top: 60px;
+  margin-bottom: .25rem;
+  text-align: center;
+}
+.content-other .content-three .project-wrap .project-list .project-waiting img {
+  width: 40px;
+  height: 54px;
+}
+.content-other .content-three .project-wrap .project-list .waiting-msg {
+  text-align: center;
+  font-size: 14px;
+  color: #AFAFAF;
+}
+.content-other .content-three .project-wrap .project-list:hover {
+  background: #5E9AFF;
+  box-shadow: 0 2px 10px 0 #9AB2E4;
+  color: #FFFFFF;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.content-other .content-three .project-wrap .project-list:hover .project-title {
+  color: #FFFFFF;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-des {
+  color: #FFFFFF;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-link a {
+  color: #fff;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-link a img.display-no {
+  display: none;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-link a img.display-yes {
+  display: inline-block;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-link a:hover {
+  color: #E6EFFF;
+}
+.content-other .content-three .project-wrap .project-list:hover .project-link a:hover span {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #E6EFFF;
+}
+.content-other .content-three .project-wrap .project-list:hover .waiting-msg {
+  color: #fff;
+}
+.content-other .content-three .mobile-project {
+  display: none;
+}
+.content-other .content-four {
+  padding: 80px 20px;
+  background: #5E9AFF;
+  box-shadow: 0 2px 10px 0 rgba(155, 182, 237, 0.5);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.content-other .content-four .info-msg {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+.content-other .content-four .info-btn {
+  text-align: center;
+}
+.content-other .content-four .info-btn .info-btn-wrap {
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  border-radius: 63px;
+  width: 159px;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 84px;
+  font-size: 14px;
+  -webkit-transition: -webkit-transform 0.5s, background 0.8s;
+  -moz-transition: -moz-transform 0.5s, background 0.8s;
+  -ms-transition: -ms-transform 0.5s, background 0.8s;
+  transition: transform 0.5s,background 0.8s;
+}
+.content-other .content-four .info-btn .info-btn-wrap a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content-other .content-four .info-btn .info-btn-wrap:hover {
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(83, 140, 236, 0.5);
+  color: #5E9AFF;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.content-other .content-four .info-btn .info-btn-wrap:hover a {
+  color: #5E9AFF;
+}
+.content-other .content-five .team-warp {
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-other .content-five .team-warp .team-info {
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -ms-transition: -ms-transform 0.5s;
+  transition: transform 0.5s;
+}
+.content-other .content-five .team-warp .team-info .people-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  background: #F6F9FF;
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  z-index: 1;
+}
+.content-other .content-five .team-warp .team-info .people-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px 0 #ECF2FF;
+}
+.content-other .content-five .team-warp .team-info .team-des {
+  width: 300px;
+  height: 320px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 10px 0 #ECF2FF;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 120px;
+  position: relative;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-name {
+  display: block;
+  font-size: 16px;
+  color: #333333;
+  padding-top: 80px;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-des {
+  font-size: 14px;
+  color: #AFAFAF;
+  line-height: 22px;
+  margin-top: 20px;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a .link-linkin {
+  background: url('../img/linkin-no.png') no-repeat;
+  background-size: cover;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a .link-linkin:hover {
+  background: url('../img/linkin-yes.png') no-repeat;
+  background-size: cover;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a .link-github {
+  background: url('../img/github-unselected.png') no-repeat;
+  background-size: cover;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a .link-github:hover {
+  background: url('../img/github-selected.png') no-repeat;
+  background-size: cover;
+}
+.content-other .content-five .team-warp .team-info .team-des .people-link a:last-child {
+  margin-right: 0;
+}
+.content-other .content-five .team-warp .team-info:hover {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.content-other .content-five .team-warp .team-info:hover .people-img img {
+  box-shadow: 0 2px 10px 0 #9AB2E4;
+}
+.content-other .content-five .team-warp .team-info:hover .team-des {
+  box-shadow: 0 2px 10px 0 #9AB2E4;
+}
+footer {
+  height: 200px;
+  background: #fff;
+  text-align: center;
+}
+footer .footer-wrap {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #AFAFAF;
+  letter-spacing: 0.84px;
+  line-height: 24px;
+  padding-top: 70px;
+}
+footer .footer-wrap .relation-list {
+  padding-bottom: 30px;
+}
+footer .footer-wrap .relation-list ul .img-icon {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+footer .footer-wrap .relation-list ul .img-icon a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -ms-transition: -ms-transform 0.5s;
+  transition: transform 0.5s;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-twitter {
+  background: url("../img/twitter-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-Reddit {
+  background: url("../img/Reddit-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-Telegram {
+  background: url("../img/Telegram-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-Discord {
+  background: url("../img/Discord-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-qq {
+  background: url("../img/qq-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-wechat {
+  background: url("../img/wechat-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-neo {
+  background: url("../img/NEOstar-unselected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a.img-git {
+  background: url("../img/github-unselected.png") no-repeat;
+  background-size: cover;
+  margin-right: 0;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover {
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-twitter {
+  background: url("../img/twitter-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #C4E8FF;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Reddit {
+  background: url("../img/Reddit-selected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Telegram {
+  background: url("../img/Telegram-selected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Discord {
+  background: url("../img/Discord-selected.png") no-repeat;
+  background-size: cover;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq {
+  background: url("../img/qq-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #BFE7FF;
+  position: relative;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 40px;
+  left: -24px;
+  background: url('../img/qqcode.png') no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #d2d2d2;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat {
+  background: url("../img/wechat-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #B6D5B4;
+  position: relative;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 40px;
+  left: -24px;
+  background: url('../img/qrcode.png') no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #d2d2d2;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-neo {
+  background: url("../img/NEOstar-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #CDEEB0;
+}
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-git {
+  background: url("../img/github-selected.png") no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #CECECE;
+}
+footer .footer-wrap .footer-msg img {
+  width: 14px;
+  height: 10px;
+  margin: 0 5px;
+  vertical-align: middle;
+}

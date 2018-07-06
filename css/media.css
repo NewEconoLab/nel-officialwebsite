@@ -1,0 +1,654 @@
+@media screen and (max-width: 1024px) {
+  header .right .nav li {
+    margin-right: 20px;
+  }
+  .content-one .contentone-wrap {
+    padding: 0 50px;
+  }
+  .content-one .contentone-wrap .des-wrap span {
+    width: 350px;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a {
+    transition: none;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-twitter {
+    background: url("../img/twitter-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Reddit {
+    background: url("../img/Reddit-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Telegram {
+    background: url("../img/Telegram-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Discord {
+    background: url("../img/Discord-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-qq {
+    background: url("../img/qq-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-wechat {
+    background: url("../img/wechat-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-neo {
+    background: url("../img/NEOstar-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-git {
+    background: url("../img/github-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover {
+    transform: none;
+  }
+  footer {
+    height: 200px;
+    background: #fff;
+    text-align: center;
+  }
+  footer .footer-wrap {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #AFAFAF;
+    letter-spacing: 0.84px;
+    line-height: 24px;
+    padding-top: 70px;
+  }
+  footer .footer-wrap .relation-list {
+    padding-bottom: 30px;
+  }
+  footer .footer-wrap .relation-list ul .img-icon {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -ms-transition: -ms-transform 0.5s;
+    transition: transform 0.5s;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-twitter {
+    background: url("../img/twitter-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-Reddit {
+    background: url("../img/Reddit-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-Telegram {
+    background: url("../img/Telegram-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-Discord {
+    background: url("../img/Discord-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-qq {
+    background: url("../img/qq-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-wechat {
+    background: url("../img/wechat-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-neo {
+    background: url("../img/NEOstar-selected.png") no-repeat;
+    background-size: cover;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a.img-git {
+    background: url("../img/github-selected.png") no-repeat;
+    background-size: cover;
+    margin-right: 0;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq {
+    background: url("../img/qq-selected.png") no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 10px 0 #BFE7FF;
+    position: relative;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: -24px;
+    background: url('../img/qqcode.png') no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 10px 0 #d2d2d2;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat {
+    background: url("../img/wechat-selected.png") no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 10px 0 #B6D5B4;
+    position: relative;
+  }
+  footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: -24px;
+    background: url('../img/qrcode.png') no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 10px 0 #d2d2d2;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .right .nav li {
+    margin-right: 20px;
+  }
+  .content-one .contentone-wrap {
+    padding: 0 50px;
+  }
+  .content-one .contentone-wrap .des-wrap span {
+    width: 337px;
+  }
+  .content-other {
+    padding-bottom: 20px;
+  }
+  .content-other .bg2 {
+    display: none;
+  }
+  .content-other .bg3 {
+    display: none;
+  }
+  .content-other .bg4 {
+    display: none;
+  }
+  .content-other .content {
+    margin-top: 50px;
+    padding: 0 50px;
+  }
+  .content-other .content-two {
+    padding: 50px 20px;
+  }
+  .content-other .content-two .about-wrap {
+    margin-top: .9rem;
+  }
+  .content-other .content-two .about-wrap .about-list {
+    width: 3rem;
+    max-width: 300px;
+    margin-right: .54rem;
+  }
+  .content-other .content-two .about-wrap .about-list .about-img img {
+    width: 50px;
+  }
+  .content-other .content-three {
+    padding: 0;
+  }
+  .content-other .content-three .project-wrap {
+    padding: 0;
+  }
+  .content-other .content-three .project-wrap .project-list {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+  }
+  .content-other .content-three .project-wrap .project-list .project-link {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+  }
+  .content-other .content-three .project-wrap .project-list .project-link a {
+    margin-bottom: 10px;
+  }
+  .content-other .content-four {
+    padding: 50px 20px;
+  }
+  .content-other .content-four .info-btn .info-btn-wrap {
+    margin: 0 34px;
+  }
+  .content-other .content-five .team-warp {
+    margin-top: 85px;
+  }
+  .content-other .content-five .team-warp .team-info .people-img {
+    position: absolute;
+    top: -50px;
+    left: 88px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des {
+    width: 275px;
+    height: 305px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 48px;
+    background: #333;
+    position: relative;
+  }
+  header .menu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../img/menu.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+  }
+  header .left {
+    height: 25px;
+    width: 100px;
+    margin-top: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+  header .left span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../img/logo2.png") no-repeat;
+    background-size: cover;
+  }
+  header .mobile-language {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+  }
+  header .mobile-language a {
+    color: #fff;
+    font-size: 18px;
+  }
+  header .right {
+    display: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #333;
+    padding: 50px 50px 40px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  header .right .close-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/close.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+  }
+  header .right .nav {
+    display: block;
+  }
+  header .right .nav li {
+    display: block;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-bottom: 1px solid #fff;
+  }
+  header .right .nav li.active {
+    color: #fff;
+  }
+  header .right .nav li.active:after {
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  header .right .nav li:nth-of-type(5) {
+    border-bottom: none;
+  }
+  header .right .nav li:last-child {
+    display: none;
+  }
+  header .right .language-toggle {
+    display: none;
+  }
+  .content-one {
+    box-sizing: border-box;
+    height: 2.89rem;
+    background: url("../img/banner.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: #F6F9FF;
+  }
+  .content-one .contentone-wrap {
+    padding: 0 30px;
+  }
+  .content-one .contentone-wrap .des-wrap {
+    padding-top: 70px;
+  }
+  .content-one .contentone-wrap .des-wrap .des-en {
+    display: none;
+  }
+  .content-one .contentone-wrap .des-wrap strong {
+    font-size: 12px;
+    color: #333333;
+  }
+  .content-one .contentone-wrap .des-wrap h1 {
+    font-size: 20px;
+    color: #333333;
+  }
+  .content-one .contentone-wrap .des-wrap span {
+    display: block;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 1.2px;
+    width: 201px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .content-one .contentone-wrap .relation-wrap {
+    font-size: 16px;
+    color: #AFAFAF;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 #D4E2FE;
+    border-radius: 3px;
+    width: 3.45rem;
+    height: .7rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -1.73rem;
+    z-index: 2;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-msg {
+    display: none;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon {
+    display: inline-block;
+    position: relative;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: .3rem;
+    border-radius: 50%;
+    transition: none;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-twitter {
+    background: url("../img/twitter-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Reddit {
+    background: url("../img/Reddit-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Telegram {
+    background: url("../img/Telegram-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Discord {
+    background: url("../img/Discord-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-qq {
+    background: url("../img/qq-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-wechat {
+    background: url("../img/wechat-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-neo {
+    background: url("../img/NEOstar-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-git {
+    background: url("../img/github-selected.png") no-repeat;
+    background-size: cover;
+  }
+  .content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover {
+    transform: none;
+  }
+  .content-other {
+    padding-bottom: 23px;
+  }
+  .content-other .bg2 {
+    display: none;
+  }
+  .content-other .bg3 {
+    display: none;
+  }
+  .content-other .bg4 {
+    display: none;
+  }
+  .content-other .content {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .content-other .content .title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .content-other .content-two {
+    margin-top: 0;
+    padding: 0;
+    padding-top: 30px;
+    border-radius: 0;
+    position: relative;
+    top: 0;
+  }
+  .content-other .content-two .about-wrap {
+    margin-top: 30px;
+  }
+  .content-other .content-two .about-wrap .about-list {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding: 22px 0 22px 15px;
+    position: relative;
+  }
+  .content-other .content-two .about-wrap .about-list .about-img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: .15rem;
+    margin-right: 0;
+    margin-top: -20px;
+  }
+  .content-other .content-two .about-wrap .about-list .about-img img {
+    width: 40px;
+  }
+  .content-other .content-two .about-wrap .about-list .about-name {
+    width: 2.75rem;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: .6rem;
+    margin-top: 0;
+    text-align: left;
+  }
+  .content-other .content-two .about-wrap .about-list .about-des {
+    margin-left: .6rem;
+    font-size: 10px;
+    text-align: left;
+    line-height: 18px;
+    width: 2.75rem;
+  }
+  .content-other .content-two .about-wrap .about-list .about-des-en {
+    width: 2.75rem;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: justify;
+    margin-left: .6rem;
+  }
+  .content-other .content-two .about-wrap .about-list:nth-of-type(odd) {
+    background: #78A8F9;
+  }
+  .content-other .content-two .about-wrap .about-list:nth-of-type(even) {
+    background: none;
+  }
+  .content-other .content-three .project-wrap {
+    display: none;
+  }
+  .content-other .content-three .mobile-project {
+    display: block;
+    margin-top: 28px;
+    padding: .15rem;
+    text-align: center;
+  }
+  .content-other .content-three .mobile-project a {
+    display: inline-block;
+    width: 165px;
+    height: 226px;
+    box-shadow: 0 2px 10px 0 #ECF2FF;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-right: .09rem;
+  }
+  .content-other .content-three .mobile-project a img {
+    width: 100%;
+  }
+  .content-other .content-three .mobile-project a:nth-of-type(even) {
+    margin-right: 0;
+  }
+  .content-other .content-four {
+    margin-top: 0;
+    padding: 20px 15px;
+    background: #5E9AFF;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  .content-other .content-four .info-msg {
+    margin-bottom: 35px;
+    font-size: 12px;
+  }
+  .content-other .content-four .info-btn {
+    text-align: center;
+  }
+  .content-other .content-four .info-btn .info-btn-wrap {
+    display: inline-block;
+    border: none;
+    background: #fff;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 25px;
+    font-size: 14px;
+    transition: none;
+    margin-top: 15px;
+  }
+  .content-other .content-four .info-btn .info-btn-wrap a {
+    color: #5E9AFF;
+    font-size: 10px;
+  }
+  .content-other .content-four .info-btn .info-btn-wrap:hover {
+    transform: none;
+  }
+  .content-other .content-five {
+    padding: 0 15px;
+  }
+  .content-other .content-five .team-warp {
+    margin-top: 58px;
+    text-align: center;
+    display: block;
+  }
+  .content-other .content-five .team-warp .team-info {
+    transition: none;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .content-other .content-five .team-warp .team-info:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .content-other .content-five .team-warp .team-info .people-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 57px;
+  }
+  .content-other .content-five .team-warp .team-info .people-img img {
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    box-shadow: none;
+  }
+  .content-other .content-five .team-warp .team-info .team-des {
+    width: 165px;
+    height: 176px;
+    border-radius: 3px;
+    margin-bottom: 53px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-name {
+    font-size: 12px;
+    padding-top: 42px;
+    line-height: 14px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-des {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-link {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-link a {
+    width: 20px;
+    height: 20px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-link a span {
+    width: 20px;
+    height: 20px;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-link a .link-linkin {
+    background: url('../img/linkin-yes.png') no-repeat;
+    background-size: cover;
+  }
+  .content-other .content-five .team-warp .team-info .team-des .people-link a .link-github {
+    background: url('../img/github-selected.png') no-repeat;
+    background-size: cover;
+  }
+  .content-other .content-five .team-warp .team-info:hover {
+    transform: none;
+  }
+  .content-other .content-five .team-warp .team-info:hover .people-img img {
+    box-shadow: 0 2px 10px 0 #ECF2FF;
+  }
+  .content-other .content-five .team-warp .team-info:hover .team-des {
+    box-shadow: 0 2px 10px 0 #ECF2FF;
+  }
+  footer {
+    height: 69px;
+  }
+  footer .footer-wrap {
+    padding-top: 12px;
+  }
+  footer .footer-wrap .relation-list {
+    display: none;
+  }
+  footer .footer-wrap .footer-msg {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewEconoLabs</title>
+    <link rel="icon" href="./img/title.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script>
+        var w = document.documentElement.clientWidth;
+        if(w<728){
+            document.documentElement.style.fontSize = w / 3.75 + "px";
+        }else{
+            document.documentElement.style.fontSize = w / 14.4 + "px";
+        }
+
+        window.onresize = function ()
+        {
+            var w = document.documentElement.clientWidth;
+            console.log(w);
+            if(w<728){
+                document.documentElement.style.fontSize = w / 3.75 + "px";
+            }else{
+                document.documentElement.style.fontSize = w / 14.4 + "px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="menu"></div>
+        <div class="left">
+            <img src="./img/logo.png" alt="logo.png" hidden>
+            <img src="./img/logo.png" alt="logo2.png" hidden>
+            <span></span>
+        </div>
+        <span class="mobile-language"><a href="./index-En.html">中</a></span>
+        <div class="right">
+            <span class="close-icon"></span>
+            <ul id="nav" class="nav">
+                <li class="active" data-boxid="welcome">欢迎</li>
+                <li data-boxid="about">关于</li>
+                <li data-boxid="project">项目</li>
+                <li data-boxid="data-bank">资料</li>
+                <li data-boxid="team">团队</li>
+                <li><a href="https://github.com/NewEconoLab" target="_blank">Github</a></li>
+            </ul>
+            <div class="language-toggle" id="language">
+                <div class="language-left">
+                    <span>中</span>
+                    <img src="./img/CH.png" alt="">
+                </div>
+                <div class="triangle-wrap">
+                    <div class="triangle"></div>
+                </div>
+                <div class="select-country" id="selectlang">
+                    <ul>
+                        <li><a href="./index.html">中文</a></li>
+                        <li><a href="./index-En.html">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="continar">
+        <div class="swiper-container content-one" id="welcome">
+            <div class="contentone-wrap">
+                <div class="des-wrap">
+                    <strong>NewEconoLabs</strong>
+                    <h1>新经济实验室</h1>
+                    <span>让区块链应用离人们更近</span>
+                </div>
+                <div class="relation-wrap">
+                    <div class="relation-msg">
+                        您可以通过以下途径来更好地了解我们：
+                    </div>
+                    <div class="relation-list">
+                        <ul>
+                            <li class="img-icon">
+                                <a href="https://twitter.com/NewEconoLab" target="_blank" class="img-twitter"></a>
+                            </li>
+                            <li class="img-icon">
+                                <a href="https://jq.qq.com/?_wv=1027&k=5SahDHr" target="_blank" class="img-qq"></a>
+                            </li>
+                            <li class="img-icon">
+                                <a class="img-wechat"></a>
+                            </li>
+                            <li class="img-icon">
+                                <a href="http://neostar.io" class="img-neo" target="_blank"></a>
+                            </li>
+                            <li class="img-icon">
+                                <a href="https://github.com/NewEconoLab" target="_blank" class="img-git"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-other">
+            <div class="content content-two swiper-container" id="about">
+                <div class="title">
+                    <strong>关于我们</strong>
+                </div>
+                <div class="about-wrap">
+                    <div class="about-list">
+                        <div class="about-img">
+                            <img src="./img/png1.png" alt="">
+                        </div>
+                        <div class="about-name">
+                            <strong>技术布道</strong>
+                        </div>
+                        <div class="about-des">
+                            <span>我们会以线下讲座、线上直播、社区问答、文字介绍等形式推广区块链平台，帮助开发者转型为区块链开发者。</span>
+                        </div>
+                    </div>
+                    <div class="about-list">
+                        <div class="about-img">
+                            <img src="./img/png2.png" alt="">
+                        </div>
+                        <div class="about-name">
+                            <strong>基础设施建设</strong>
+                        </div>
+                        <div class="about-des">
+                            <span>NEL会承担区块链生态必要的非盈利基础设施建设，例如智能合约在线编译器，区块链浏览器等，有一定区块链和智能合约开发经验的开发者可以选择加入到这些项目中。 </span>
+                        </div>
+                    </div>
+                    <div class="about-list">
+                        <div class="about-img">
+                            <img src="./img/png3.png" alt="">
+                        </div>
+                        <div class="about-name">
+                            <strong>商业项目</strong>
+                        </div>
+                        <div class="about-des">
+                            <span>除了非盈利基础设施之外，我们也在开发一些商业性项目，旨在让区块链应用离人们更近，便利于我们的生活，目前我们正在实现NEO上的域名服务。</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content content-three swiper-container" id="project">
+                <div class="title">
+                    <strong>项目</strong>
+                </div>
+                <div class="project-wrap">
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>NEL浏览器</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>由我们开发的一款NEO区块链浏览器。</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://scan.nel.group/zh/#mainnet" target="_blank">
+                                <img src="./img/browser-no.png" alt="" class="display-no">
+                                <img src="./img/browser-yes.png" alt="" class="display-yes">
+                                <span>前往浏览器</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>NEL钱包</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>由我们开发的一款NEO在线钱包，同时支持NNS。</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://wallet.nel.group" target="_blank">
+                                <img src="./img/wallet-no.png" alt="" class="display-no">
+                                <img src="./img/wallet-yes.png" alt="" class="display-yes">
+                                <span>前往网页钱包</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>NNS去中心化域名服务</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>基于NEO区块链平台的以".neo" 结尾的去中心化域名服务。（目前还在测试阶段）</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://neons.name" target="_blank">
+                                <img src="./img/NNS-no.png" alt="" class="display-no">
+                                <img src="./img/NNS-yes.png" alt="" class="display-yes">
+                                <span>前往NNS官网</span>
+                            </a>
+                            <a href="https://testwallet.nel.group/#login" target="_blank">
+                                <img src="./img/wallet-no.png" alt="" class="display-no">
+                                <img src="./img/wallet-yes.png" alt="" class="display-yes">
+                                <span>前往网页钱包体验NNS（测试链）</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>NEODUN硬件钱包</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>NEODUN是一款用于保管比特币、以太坊、NEO等加密货币密钥的硬件钱包。</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="http://neodun.com" target="_blank">
+                                <img src="./img/NEODUN-no.png" alt="" class="display-no">
+                                <img src="./img/NEODUN-yes.png" alt="" class="display-yes">
+                                <span>前往Neodun官网</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>NEO区块链游戏开发大赛</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>我们基于NEO的区块链游戏社区，目前正在举办首届NEO区块链游戏开发者大赛，总价值350万大赛奖金，39个名额。</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="http://neo.game/index.html" target="_blank">
+                                <img src="./img/NEOstar-unselected.png" alt="" class="display-no">
+                                <img src="./img/NEOstar-selected.png" alt="" class="display-yes">
+                                <span>前往游戏开发大赛官网</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-title">
+                            <strong>疯狂角斗士</strong>
+                        </div>
+                        <div class="project-des">
+                            <span>由我们的黑猫团队开发的一款将区块链技术与传统游戏要素相结合的游戏，玩家既可以体验区块链带来的理念革新，也能够获得传统游戏的原始乐趣。</span>
+                        </div>
+                        <div class="project-link" target="_blank">
+                            <a href="http://cryptogladiator.io" target="_blank">
+                                <img src="./img/gladiators-no.png" alt="" class="display-no">
+                                <img src="./img/gladiators-yes.png" alt="" class="display-yes">
+                                <span>前往疯狂角斗士官网</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-waiting">
+                            <img src="./img/coffee.png" alt="">
+                        </div>
+                        <div class="waiting-msg">
+                            <span>更多项目，敬请期待...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-project">
+                    <a href="https://scan.nel.group/zh/#mainnet" target="_blank">
+                        <img src="./img/go1.png" alt="">
+                    </a>
+                    <a href="https://wallet.nel.group" target="_blank">
+                        <img src="./img/go2.png" alt="">
+                    </a>
+                    <a href="https://neons.name" target="_blank">
+                        <img src="./img/go3.png" alt="">
+                    </a>
+                    <a href="http://neodun.com" target="_blank">
+                        <img src="./img/go4.png" alt="">
+                    </a>
+                    <a href="http://neo.game/index.html" target="_blank">
+                        <img src="./img/go5.png" alt="">
+                    </a>
+                    <a href="http://cryptogladiator.io" target="_blank">
+                        <img src="./img/go6.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="content content-four swiper-container" id="data-bank">
+                <div class="title">
+                    <strong>资料导航</strong>
+                </div>
+                <div class="info-msg">
+                    <span>我们为爱好者提供了资讯博客以及API文档，以供大家了解相关资讯以及技术信息。</span>
+                </div>
+                <div class="info-btn">
+                    <div class="info-btn-wrap">
+                        <a href="http://neostar.io" target="_blank">Neo星球博客</a>
+                    </div>
+                    <div class="info-btn-wrap">
+                        <a href="http://www.xiaoyaoji.cn/share/1H0gjTDtfk/" target="_blank">API文档</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content content-five swiper-container" id="team">
+                <div class="title">
+                    <strong>团队</strong>
+                </div>
+                <div class="team-warp">
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team01.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">刘永新</strong>
+                            <div class="people-des">NEO中国开发志愿者社区NEL<br>联合发起人</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/永新-刘-920ab3a7/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/jasonliu91" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team02.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">李剑英</strong>
+                            <div class="people-des">NEO核心开发者，NEL联合发起人</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/剑英-李-940220162/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/lightszero" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team03.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">刘虔铭</strong>
+                            <div class="people-des">核心开发者，全栈工程师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/虔铭-刘-78a3113b/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/QingmingZi" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team04.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">赵奔</strong>
+                            <div class="people-des">web开发工程师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/奔-赵-452364163/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/vincentOpenSource" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team05.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">王祥剑</strong>
+                            <div class="people-des">海外社区运营经理</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/robbie-wang-b2304636/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team06.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">王佳平</strong>
+                            <div class="people-des">UI设计师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/benny-wong-b84343163/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team07.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">韦丽</strong>
+                            <div class="people-des">web开发工程师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/丽-韦-111443163/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/dabanli123" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team08.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">黄晶晶</strong>
+                            <div class="people-des">运营经理</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/晶-晶-852663146/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team09.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">印炜</strong>
+                            <div class="people-des">全栈开发工程师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/炜-印-947362163/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/wowoyinwei" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team10.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">廖京辉</strong>
+                            <div class="people-des">全栈开发工程师</div>
+                            <div class="people-link">
+                                <a href="https://github.com/Liaojinghui" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team11.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">张辙</strong>
+                            <div class="people-des">Neodun产品负责人</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/辙-张-19b344163/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/LOSTTEMPER" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <div class="people-img">
+                            <img src="./img/team12.png" alt="">
+                        </div>
+                        <div class="team-des">
+                            <strong class="people-name">田帅</strong>
+                            <div class="people-des">后端开发工程师</div>
+                            <div class="people-link">
+                                <a href="https://www.linkedin.com/in/%E5%B8%85-%E7%94%B0-697a96167/" target="_blank">
+                                    <span class="link-linkin"></span>
+                                </a> 
+                                <a href="https://github.com/tssqzr" target="_blank">
+                                    <span class="link-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg2"></div>
+            <div class="bg3"></div>
+            <div class="bg4"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            <div class="relation-list">
+                <ul>
+                    <li class="img-icon">
+                        <a href="https://twitter.com/NewEconoLab" target="_blank" class="img-twitter"></a>
+                    </li>
+                    <li class="img-icon">
+                        <a href="https://jq.qq.com/?_wv=1027&k=5SahDHr" target="_blank" class="img-qq"></a>
+                    </li>
+                    <li class="img-icon">
+                        <a class="img-wechat"></a>
+                    </li>
+                    <li class="img-icon">
+                        <a href="http://neostar.io" class="img-neo" target="_blank"></a>
+                    </li>
+                    <li class="img-icon">
+                        <a href="https://github.com/NewEconoLab" target="_blank" class="img-git"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-msg">
+                <span>Made with</span>
+                <img src="./img/loving-heart.png" alt="">
+                <span>by NewEconoLabs</span>
+                <br>
+                <span>© 2018 NewEconoLabs</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-1.10.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
