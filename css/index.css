@@ -399,7 +399,7 @@ header .right .language-toggle .select-country ul li a {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .content-other .content-three .project-wrap .project-list {
   margin-bottom: .7rem;
