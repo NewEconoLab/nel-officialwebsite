@@ -33,7 +33,7 @@ var app = {
     },
     onShowCode(){
         let self = this;
-        $(".img-qq").on("click",function(){
+        $(".img-qq").on("tap",function(){
             self.showqqcode = !self.showqqcode;
             if(self.showqqcode){
                 $(".img-qq").addClass("active-img-qq");
@@ -41,7 +41,7 @@ var app = {
                 $(".img-qq").removeClass("active-img-qq");
             }
         })
-        $(".img-wechat").on("click",function(){
+        $(".img-wechat").on("tap",function(){
             self.showrqcode = !self.showrqcode;
             if(self.showrqcode){
                 $(".img-wechat").addClass("active-img-wechat");
