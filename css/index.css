@@ -399,7 +399,7 @@ header .right .language-toggle .select-country ul li a {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .content-other .content-three .project-wrap .project-list {
   margin-bottom: .7rem;
@@ -454,7 +454,7 @@ header .right .language-toggle .select-country ul li a {
   display: none;
 }
 .content-other .content-three .project-wrap .project-list .project-waiting {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: .25rem;
   text-align: center;
 }
