@@ -158,8 +158,7 @@ header .right .language-toggle .select-country ul li a {
   display: inline-block;
   position: relative;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -170,87 +169,72 @@ header .right .language-toggle .select-country ul li a {
   -ms-transition: -ms-transform 0.5s;
   transition: transform 0.5s;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-twitter,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-twitter {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-twitter {
   background: url("../img/twitter-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Reddit,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-Reddit {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Reddit {
   background: url("../img/Reddit-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Telegram,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-Telegram {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Telegram {
   background: url("../img/Telegram-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Discord,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-Discord {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-Discord {
   background: url("../img/Discord-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-qq,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-qq {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-qq {
   background: url("../img/qq-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-wechat,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-wechat {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-wechat {
   background: url("../img/wechat-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-neo,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-neo {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-neo {
   background: url("../img/NEOstar-no.png") no-repeat;
   background-size: cover;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-git,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span.img-git {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a.img-git {
   background: url("../img/github-no.png") no-repeat;
   background-size: cover;
   margin-right: 0;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover {
   -webkit-transform: translateY(-3px);
   -moz-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-twitter,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-twitter {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-twitter {
   background: url("../img/twitter-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #C4E8FF;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Reddit,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-Reddit {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Reddit {
   background: url("../img/Reddit-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #FFD7C8;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Telegram,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-Telegram {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Telegram {
   background: url("../img/Telegram-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #A5DDF6;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Discord,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-Discord {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-Discord {
   background: url("../img/Discord-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #CCD4FF;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-qq {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq {
   background: url("../img/qq-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #BFE7FF;
   position: relative;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq::after,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-qq::after {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-qq::after {
   content: '';
   width: 80px;
   height: 80px;
@@ -261,15 +245,13 @@ header .right .language-toggle .select-country ul li a {
   background-size: cover;
   box-shadow: 0 2px 10px 0 #d2d2d2;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-wechat {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat {
   background: url("../img/wechat-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #B6D5B4;
   position: relative;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat::after,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-wechat::after {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-wechat::after {
   content: '';
   width: 80px;
   height: 80px;
@@ -280,14 +262,12 @@ header .right .language-toggle .select-country ul li a {
   background-size: cover;
   box-shadow: 0 2px 10px 0 #d2d2d2;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-neo,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-neo {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-neo {
   background: url("../img/NEOstar-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #CDEEB0;
 }
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-git,
-.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon span:hover.img-git {
+.content-one .contentone-wrap .relation-wrap .relation-list ul .img-icon a:hover.img-git {
   background: url("../img/github-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #CECECE;
@@ -704,8 +684,7 @@ footer .footer-wrap .relation-list ul .img-icon {
   position: relative;
   z-index: 2;
 }
-footer .footer-wrap .relation-list ul .img-icon a,
-footer .footer-wrap .relation-list ul .img-icon span {
+footer .footer-wrap .relation-list ul .img-icon a {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -716,84 +695,69 @@ footer .footer-wrap .relation-list ul .img-icon span {
   -ms-transition: -ms-transform 0.5s;
   transition: transform 0.5s;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-twitter,
-footer .footer-wrap .relation-list ul .img-icon span.img-twitter {
+footer .footer-wrap .relation-list ul .img-icon a.img-twitter {
   background: url("../img/twitter-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-Reddit,
-footer .footer-wrap .relation-list ul .img-icon span.img-Reddit {
+footer .footer-wrap .relation-list ul .img-icon a.img-Reddit {
   background: url("../img/Reddit-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-Telegram,
-footer .footer-wrap .relation-list ul .img-icon span.img-Telegram {
+footer .footer-wrap .relation-list ul .img-icon a.img-Telegram {
   background: url("../img/Telegram-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-Discord,
-footer .footer-wrap .relation-list ul .img-icon span.img-Discord {
+footer .footer-wrap .relation-list ul .img-icon a.img-Discord {
   background: url("../img/Discord-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-qq,
-footer .footer-wrap .relation-list ul .img-icon span.img-qq {
+footer .footer-wrap .relation-list ul .img-icon a.img-qq {
   background: url("../img/qq-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-wechat,
-footer .footer-wrap .relation-list ul .img-icon span.img-wechat {
+footer .footer-wrap .relation-list ul .img-icon a.img-wechat {
   background: url("../img/wechat-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-neo,
-footer .footer-wrap .relation-list ul .img-icon span.img-neo {
+footer .footer-wrap .relation-list ul .img-icon a.img-neo {
   background: url("../img/NEOstar-no.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a.img-git,
-footer .footer-wrap .relation-list ul .img-icon span.img-git {
+footer .footer-wrap .relation-list ul .img-icon a.img-git {
   background: url("../img/github-no.png") no-repeat;
   background-size: cover;
   margin-right: 0;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover,
-footer .footer-wrap .relation-list ul .img-icon span:hover {
+footer .footer-wrap .relation-list ul .img-icon a:hover {
   -webkit-transform: translateY(-3px);
   -moz-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-twitter,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-twitter {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-twitter {
   background: url("../img/twitter-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #C4E8FF;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-Reddit,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-Reddit {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Reddit {
   background: url("../img/Reddit-yes.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-Telegram,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-Telegram {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Telegram {
   background: url("../img/Telegram-yes.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-Discord,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-Discord {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-Discord {
   background: url("../img/Discord-yes.png") no-repeat;
   background-size: cover;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-qq {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq {
   background: url("../img/qq-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #BFE7FF;
   position: relative;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq::after,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-qq::after {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq::after {
   content: '';
   width: 80px;
   height: 80px;
@@ -804,15 +768,13 @@ footer .footer-wrap .relation-list ul .img-icon span:hover.img-qq::after {
   background-size: cover;
   box-shadow: 0 2px 10px 0 #d2d2d2;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-wechat {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat {
   background: url("../img/wechat-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #B6D5B4;
   position: relative;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat::after,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-wechat::after {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat::after {
   content: '';
   width: 80px;
   height: 80px;
@@ -823,14 +785,12 @@ footer .footer-wrap .relation-list ul .img-icon span:hover.img-wechat::after {
   background-size: cover;
   box-shadow: 0 2px 10px 0 #d2d2d2;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-neo,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-neo {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-neo {
   background: url("../img/NEOstar-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #CDEEB0;
 }
-footer .footer-wrap .relation-list ul .img-icon a:hover.img-git,
-footer .footer-wrap .relation-list ul .img-icon span:hover.img-git {
+footer .footer-wrap .relation-list ul .img-icon a:hover.img-git {
   background: url("../img/github-yes.png") no-repeat;
   background-size: cover;
   box-shadow: 0 2px 10px 0 #CECECE;

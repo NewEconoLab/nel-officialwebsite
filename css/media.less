@@ -22,7 +22,7 @@
                 .relation-list{
                     ul{
                         .img-icon{
-                            a,span{
+                            a{
                                 -webkit-transition: none;
                                 transition: none;
                                 &.img-twitter{
@@ -122,7 +122,7 @@
                         display: inline-block;
                         position: relative;
                         z-index: 2;
-                        a,span{
+                        a{
                             display: inline-block;
                             width: 30px;
                             height: 30px;
@@ -168,39 +168,39 @@
                             &:hover{
                                 -webkit-transform: none;
                                 transform: none;
-                            }
-                            &.active-img-qq{
-                                background: url("../img/qq-yes.png") no-repeat;
-                                background-size: cover;
-                                box-shadow: 0 2px 10px 0 #BFE7FF;
-                                position: relative;
-                                &::after{
-                                    content: '';
-                                    width: 80px;
-                                    height: 80px;
-                                    position: absolute;
-                                    bottom: 40px;
-                                    left: -24px;
-                                    background: url('../img/qqcode.png') no-repeat;
+                                &.img-qq{
+                                    background: url("../img/qq-yes.png") no-repeat;
                                     background-size: cover;
-                                    box-shadow: 0 2px 10px 0 #d2d2d2;
+                                    box-shadow: 0 2px 10px 0 #BFE7FF;
+                                    position: relative;
+                                    &::after{
+                                        content: '';
+                                        width: 80px;
+                                        height: 80px;
+                                        position: absolute;
+                                        bottom: 40px;
+                                        left: -24px;
+                                        background: url('../img/qqcode.png') no-repeat;
+                                        background-size: cover;
+                                        box-shadow: 0 2px 10px 0 #d2d2d2;
+                                    }
                                 }
-                            }
-                            &.active-img-wechat{
-                                background: url("../img/wechat-yes.png") no-repeat;
-                                background-size: cover;
-                                box-shadow: 0 2px 10px 0 #B6D5B4;
-                                position: relative;
-                                &::after{
-                                    content: '';
-                                    width: 80px;
-                                    height: 80px;
-                                    position: absolute;
-                                    bottom: 40px;
-                                    left: -24px;
-                                    background: url('../img/qrcode.png') no-repeat;
+                                &.img-wechat{
+                                    background: url("../img/wechat-yes.png") no-repeat;
                                     background-size: cover;
-                                    box-shadow: 0 2px 10px 0 #d2d2d2;
+                                    box-shadow: 0 2px 10px 0 #B6D5B4;
+                                    position: relative;
+                                    &::after{
+                                        content: '';
+                                        width: 80px;
+                                        height: 80px;
+                                        position: absolute;
+                                        bottom: 40px;
+                                        left: -24px;
+                                        background: url('../img/qrcode.png') no-repeat;
+                                        background-size: cover;
+                                        box-shadow: 0 2px 10px 0 #d2d2d2;
+                                    }
                                 }
                             }
                         }
