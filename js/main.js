@@ -1,12 +1,12 @@
 var app = {
-    bannerSwiper: null,
-    productSwiper: null,
-    faqSwiper: null,
+    showqqcode: false,
+    showrqcode: false,
 
     init: function ()
     {
         //nav 点击
         this.onNavClick();
+        this.onShowCode();
         // 语言选择事件
         this.onLanguageClick();
         //
@@ -29,6 +29,26 @@ var app = {
             $(this).addClass('active');
 
             $('html,body').animate({ scrollTop: elementTop }, 500);
+        })
+    },
+    onShowCode(){
+        let self = this;
+        $(".img-qq").on("click",function(){
+            self.showqqcode = !self.showqqcode;
+            if(self.showqqcode){
+                $(".img-qq").addClass("active-img-qq");
+            }else{
+                $(".img-qq").removeClass("active-img-qq");
+            }
+        })
+        $(".img-wechat").on("click",function(){
+            self.showrqcode = !self.showrqcode;
+            if(self.showrqcode){
+                $(".img-wechat").addClass("active-img-wechat");
+            }else{
+                $(".img-wechat").removeClass("active-img-wechat");
+            }
+            
         })
     },
     onLanguageClick: function ()

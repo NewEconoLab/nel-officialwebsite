@@ -176,15 +176,15 @@
     -webkit-transform: none;
     transform: none;
   }
-  footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq,
-  footer .footer-wrap .relation-list ul .img-icon span:hover.img-qq {
+  footer .footer-wrap .relation-list ul .img-icon a.active-img-qq,
+  footer .footer-wrap .relation-list ul .img-icon span.active-img-qq {
     background: url("../img/qq-yes.png") no-repeat;
     background-size: cover;
     box-shadow: 0 2px 10px 0 #BFE7FF;
     position: relative;
   }
-  footer .footer-wrap .relation-list ul .img-icon a:hover.img-qq::after,
-  footer .footer-wrap .relation-list ul .img-icon span:hover.img-qq::after {
+  footer .footer-wrap .relation-list ul .img-icon a.active-img-qq::after,
+  footer .footer-wrap .relation-list ul .img-icon span.active-img-qq::after {
     content: '';
     width: 80px;
     height: 80px;
@@ -195,15 +195,15 @@
     background-size: cover;
     box-shadow: 0 2px 10px 0 #d2d2d2;
   }
-  footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat,
-  footer .footer-wrap .relation-list ul .img-icon span:hover.img-wechat {
+  footer .footer-wrap .relation-list ul .img-icon a.active-img-wechat,
+  footer .footer-wrap .relation-list ul .img-icon span.active-img-wechat {
     background: url("../img/wechat-yes.png") no-repeat;
     background-size: cover;
     box-shadow: 0 2px 10px 0 #B6D5B4;
     position: relative;
   }
-  footer .footer-wrap .relation-list ul .img-icon a:hover.img-wechat::after,
-  footer .footer-wrap .relation-list ul .img-icon span:hover.img-wechat::after {
+  footer .footer-wrap .relation-list ul .img-icon a.active-img-wechat::after,
+  footer .footer-wrap .relation-list ul .img-icon span.active-img-wechat::after {
     content: '';
     width: 80px;
     height: 80px;
