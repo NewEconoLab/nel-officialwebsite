@@ -3,7 +3,7 @@ var app = {
     {
         //nav 点击
         this.onNavClick();
-        // 语言选择事件
+        // 语言选择事件你
         this.onLanguageClick();
         //
         this.onScrollNav();
@@ -29,9 +29,15 @@ var app = {
     },
     onLanguageClick: function ()
     {
+        let flag = false;
         $("#language").on("click", function ()
         {
-            $("#selectlang").show();
+            flag = !flag;
+            if(flag){
+                $("#selectlang").show();
+            }else{
+                $("#selectlang").hide();
+            }
         })
         $("#selectlang").on("click", "li", function (e)
         {
