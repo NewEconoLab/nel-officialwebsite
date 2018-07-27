@@ -413,7 +413,7 @@ header{
             //padding: 0 .4rem;
             display: flex;
             flex-wrap:wrap;
-            justify-content:space-between;
+            justify-content:space-around;
             .project-list{
                 margin-bottom: .7rem;
                 background: #fff;
@@ -439,6 +439,21 @@ header{
                     color:#AFAFAF;
                     line-height: 22px;
                     text-align: justify;
+                }
+                .noa-img{
+                    position: absolute;
+                    bottom: 30px;
+                    right: 20px;
+                    img{
+                        width: 119px;
+                        text-align: right;
+                        &.display-no{
+                            display: inline-block;
+                        }
+                        &.display-yes{
+                            display: none;
+                        }
+                    }
                 }
                 .project-link{
                     position: absolute;
@@ -493,7 +508,17 @@ header{
                     .project-des{
                         color: #FFFFFF;
                     }
-                    .project-link{
+                    .noa-img{
+                        img{
+                            &.display-no{
+                                display: none;
+                            }
+                            &.display-yes{
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    .project-link{                        
                         a{
                             color: #fff;
                             img{

@@ -272,6 +272,21 @@
                     width: 280px;
                     height: 280px;
                     padding: 20px;
+                    .noa-img{
+                        position: absolute;
+                        bottom: 15px;
+                        right: 20px;
+                        img{
+                            width: 119px;
+                            text-align: right;
+                            &.display-no{
+                                display: inline-block;
+                            }
+                            &.display-yes{
+                                display: none;
+                            }
+                        }
+                    }
                     .project-link{
                         position: absolute;
                         bottom: 5px;
@@ -570,7 +585,7 @@
             .mobile-project{
                 display: block;
                 margin-top: 28px;
-                padding: .15rem;
+                padding: 0;
                 text-align: center;
                 a{
                     display: inline-block;
@@ -727,4 +742,24 @@
         }
     }
     
+}
+@media screen and (max-width: 360px) {
+    .content-other{
+        .content-three{
+            .mobile-project{
+                a{
+                    width: 160px;
+                    height: auto;
+                    margin-right: 0;
+                }
+            }
+        }
+        .content-five{
+            .team-warp{
+                .team-info{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }

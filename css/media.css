@@ -238,6 +238,21 @@
     height: 280px;
     padding: 20px;
   }
+  .content-other .content-three .project-wrap .project-list .noa-img {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+  }
+  .content-other .content-three .project-wrap .project-list .noa-img img {
+    width: 119px;
+    text-align: right;
+  }
+  .content-other .content-three .project-wrap .project-list .noa-img img.display-no {
+    display: inline-block;
+  }
+  .content-other .content-three .project-wrap .project-list .noa-img img.display-yes {
+    display: none;
+  }
   .content-other .content-three .project-wrap .project-list .project-link {
     position: absolute;
     bottom: 5px;
@@ -520,7 +535,7 @@
   .content-other .content-three .mobile-project {
     display: block;
     margin-top: 28px;
-    padding: .15rem;
+    padding: 0;
     text-align: center;
   }
   .content-other .content-three .mobile-project a {
@@ -669,5 +684,15 @@
   }
   footer .footer-wrap .footer-msg {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .content-other .content-three .mobile-project a {
+    width: 160px;
+    height: auto;
+    margin-right: 0;
+  }
+  .content-other .content-five .team-warp .team-info {
+    margin-right: 0;
   }
 }
