@@ -285,7 +285,8 @@
     width: 100%;
     height: 48px;
     background: #333;
-    position: relative;
+    position: fixed;
+    top: 0;
   }
   header .menu {
     width: 20px;
@@ -379,6 +380,9 @@
   }
   header .right .language-toggle {
     display: none;
+  }
+  .continar {
+    margin-top: 48px;
   }
   .content-one {
     box-sizing: border-box;
