@@ -528,7 +528,7 @@
     margin-left: .6rem;
   }
   .content-other .content-two .about-wrap .about-list:nth-of-type(odd) {
-    background: #78A8F9;
+    background: #F2F2F2;
   }
   .content-other .content-two .about-wrap .about-list:nth-of-type(even) {
     background: none;
@@ -676,6 +676,67 @@
   }
   .content-other .content-five .team-warp .team-info:hover .team-des {
     box-shadow: 0 2px 10px 0 #ECF2FF;
+  }
+  .content-other .content-six{
+    margin-top: 30px;
+    background: #5E9AFF;
+    color: #fff;
+    padding:30px 0 30px 0;    
+  }
+  .content-other .content-six .title::after {
+    content: '';
+    width: 35px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -18px;
+  }
+  .content-other .content-six .audit-wrap{
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 0; 
+  }
+  .content-other .content-six .audit-wrap .audit-img{
+    width: .85rem;
+    height: auto;
+    display: inline-block;
+    margin-top: 35px;
+    vertical-align: top;   
+  }
+  .content-other .content-six .audit-wrap .audit-img img{
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+  }
+  .content-other .content-six .audit-wrap .audit-right{
+    display: inline-block;
+    width: 2.55rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .content-other .content-six .audit-wrap .audit-text{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .content-other .content-six .audit-wrap .audit-dec{
+    font-size: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  .content-other .content-six .audit-wrap .audit-box{
+    text-align: left;
+    width: auto;
+    height: 10px;
+    line-height: 10px;
+    border: none;
+    font-size: 10px;
   }
   footer {
     height: 69px;

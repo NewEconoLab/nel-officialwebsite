@@ -325,10 +325,10 @@ header .right .language-toggle .select-country ul li a {
   text-align: center;
   position: relative;
 }
-.content-other .content:nth-of-type(odd) {
+/* .content-other .content:nth-of-type(odd) {
   color: #fff;
-}
-.content-other .content:nth-of-type(odd) .title::after {
+} */
+.content-other .content:nth-of-type(4) .title::after {
   content: '';
   width: 35px;
   height: 5px;
@@ -339,10 +339,10 @@ header .right .language-toggle .select-country ul li a {
   left: 50%;
   margin-left: -18px;
 }
-.content-other .content:nth-of-type(even) {
+.content-other .content {
   color: #333333;
 }
-.content-other .content:nth-of-type(even) .title::after {
+.content-other .content .title::after {
   content: '';
   width: 35px;
   height: 5px;
@@ -355,11 +355,11 @@ header .right .language-toggle .select-country ul li a {
 }
 .content-other .content-two {
   margin-top: 0;
-  padding: 80px 20px;
-  background: #5E9AFF;
+  padding: 80px 0;
+  background: #fff;
   box-shadow: 0 2px 10px 0 rgba(155, 182, 237, 0.5);
   border-radius: 10px;
-  color: #fff;
+  color: #333;
   text-align: center;
   position: relative;
   top: -60px;
@@ -682,6 +682,46 @@ header .right .language-toggle .select-country ul li a {
 }
 .content-other .content-five .team-warp .team-info:hover .team-des {
   box-shadow: 0 2px 10px 0 #9AB2E4;
+}
+.content-other .content-six{
+  margin-top: 80px;
+}
+.content-other .content-six .audit-wrap{
+  background: #5E9AFF;
+  box-shadow: 0 2px 10px 0 rgba(155,182,237,0.50);
+  border-radius: 10px;
+  margin-top: 70px;
+  text-align: center;
+  color: #fff;
+  padding: 80px 50px;  
+}
+.content-other .content-six .audit-wrap .audit-img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  
+}
+.content-other .content-six .audit-wrap .audit-img img{
+  width: 100%;
+}
+.content-other .content-six .audit-wrap .audit-text{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.content-other .content-six .audit-wrap .audit-dec{
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.content-other .content-six .audit-wrap .audit-box{
+  margin: 0 auto;
+  width: 380px;
+  height: 55px;
+  line-height: 55px;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  font-size: 14px;
 }
 footer {
   height: 200px;
