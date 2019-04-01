@@ -50,6 +50,7 @@ var app = {
     {
         let welcomeHeight = $('#welcome').offset().top - document.documentElement.clientHeight + 300;
         let aboutHeight = $('#about').offset().top - document.documentElement.clientHeight + 300;
+        let auditHeight = $('#audit').offset().top - document.documentElement.clientHeight + 300;
         let projectHeight = $('#project').offset().top - document.documentElement.clientHeight + 300;
         let databankHeight = $('#data-bank').offset().top - document.documentElement.clientHeight + 300;
         let teamHeight = $('#team').offset().top - document.documentElement.clientHeight + 300;
@@ -67,6 +68,10 @@ var app = {
             {
                 $("#nav").find('li').removeClass('active');
                 $("ul li[data-boxid=project]").addClass('active');
+            }else if ($(document).scrollTop() >= auditHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=audit]").addClass('active');
             }else if ($(document).scrollTop() >= aboutHeight)
             {
                 $("#nav").find('li').removeClass('active');
